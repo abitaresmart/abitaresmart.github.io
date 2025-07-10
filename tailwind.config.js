@@ -4,11 +4,6 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   content: ['*.html', '_site/*.html','_site/**/*.html', '_pages/**/*.md', '_posts/**/*.md', '_layouts/**/*.html', '_includes/**/*.html'],
   theme: {
-    colors: {
-      transparent: 'transparent',
-      white: "#FAFAFA",
-      black: "#2E2E2E"
-    },
     extend: {
       colors: {
         gray: colors.slate,
@@ -16,6 +11,8 @@ module.exports = {
         secondary: colors.indigo,
         tertiary: colors.slate,
         danger: colors.red,
+        white: "#FAFAFA",
+        black: "#2E2E2E",
         'main': {
           50: '#F3F8F9',
           100: '#B8D2D9',
