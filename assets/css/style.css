@@ -1348,9 +1348,6 @@ video {
 }.hover\:text-accent-400:hover {
   --tw-text-opacity: 1;
   color: rgb(255 165 82 / var(--tw-text-opacity));
-}.hover\:text-\[\#fe0b81\]:hover {
-  --tw-text-opacity: 1;
-  color: rgb(254 11 129 / var(--tw-text-opacity));
 }.hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(250 250 250 / var(--tw-text-opacity));
