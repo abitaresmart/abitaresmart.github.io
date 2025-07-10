@@ -1189,15 +1189,15 @@ video {
 }.text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }.text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
 }.text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }.text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1392,8 +1392,6 @@ video {
     width: 10rem;
   }.md\:max-w-xl {
     max-width: 36rem;
-  }.md\:max-w-md {
-    max-width: 28rem;
   }.md\:max-w-full {
     max-width: 100%;
   }.md\:grid-cols-2 {
@@ -1463,8 +1461,6 @@ video {
     width: 25%;
   }.lg\:max-w-2xl {
     max-width: 42rem;
-  }.lg\:max-w-md {
-    max-width: 28rem;
   }.lg\:max-w-screen-xl {
     max-width: 1280px;
   }.lg\:flex-shrink-0 {
