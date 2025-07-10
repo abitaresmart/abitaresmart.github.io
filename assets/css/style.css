@@ -901,6 +901,8 @@ video {
   position: absolute;
 }.relative {
   position: relative;
+}.top-10 {
+  top: 2.5rem;
 }.right-0 {
   right: 0px;
 }.top-0 {
@@ -985,10 +987,10 @@ video {
   display: contents;
 }.hidden {
   display: none;
-}.h-12 {
-  height: 3rem;
 }.h-full {
   height: 100%;
+}.h-12 {
+  height: 3rem;
 }.h-4 {
   height: 1rem;
 }.h-3 {
@@ -1129,6 +1131,10 @@ video {
   background-color: rgb(6 37 45 / var(--tw-bg-opacity));
 }.bg-opacity-75 {
   --tw-bg-opacity: 0.75;
+}.bg-cover {
+  background-size: cover;
+}.bg-center {
+  background-position: center;
 }.object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1330,7 +1336,7 @@ video {
   transition-duration: 500ms;
 }.ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}.highlight .hll{background-color:#515151}.highlight{background:#2d2d2d;color:#f2f0ec}.highlight .c{color:#a3cacd}.highlight .err{color:#f2777a}.highlight .k{color:#c9c}.highlight .l{color:#f99157}.highlight .n{color:#f2f0ec}.highlight .o{color:#6cc}.highlight .p{color:#f2f0ec}.highlight .ch{color:#a3cacd}.highlight .cm{color:#a3cacd}.highlight .cp{color:#a3cacd}.highlight .cpf{color:#a3cacd}.highlight .c1{color:#a3cacd}.highlight .cs{color:#a3cacd}.highlight .gd{color:#f2777a}.highlight .ge{font-style:italic}.highlight .gh{color:#f2f0ec;font-weight:bold}.highlight .gi{color:#9c9}.highlight .gp{color:#a3cacd;font-weight:bold}.highlight .gs{font-weight:bold}.highlight .gu{color:#6cc;font-weight:bold}.highlight .kc{color:#c9c}.highlight .kd{color:#c9c}.highlight .kn{color:#6cc}.highlight .kp{color:#c9c}.highlight .kr{color:#c9c}.highlight .kt{color:#fc6}.highlight .ld{color:#9c9}.highlight .m{color:#f99157}.highlight .s{color:#9c9}.highlight .na{color:#69c}.highlight .nb{color:#f2f0ec}.highlight .nc{color:#fc6}.highlight .no{color:#f2777a}.highlight .nd{color:#6cc}.highlight .ni{color:#f2f0ec}.highlight .ne{color:#f2777a}.highlight .nf{color:#69c}.highlight .nl{color:#f2f0ec}.highlight .nn{color:#fc6}.highlight .nx{color:#69c}.highlight .py{color:#f2f0ec}.highlight .nt{color:#6cc}.highlight .nv{color:#f2777a}.highlight .ow{color:#6cc}.highlight .w{color:#f2f0ec}.highlight .mb{color:#f99157}.highlight .mf{color:#f99157}.highlight .mh{color:#f99157}.highlight .mi{color:#f99157}.highlight .mo{color:#f99157}.highlight .sa{color:#9c9}.highlight .sb{color:#9c9}.highlight .sc{color:#f2f0ec}.highlight .dl{color:#9c9}.highlight .sd{color:#a3cacd}.highlight .s2{color:#9c9}.highlight .se{color:#f99157}.highlight .sh{color:#9c9}.highlight .si{color:#f99157}.highlight .sx{color:#9c9}.highlight .sr{color:#9c9}.highlight .s1{color:#9c9}.highlight .ss{color:#9c9}.highlight .bp{color:#f2f0ec}.highlight .fm{color:#69c}.highlight .vc{color:#f2777a}.highlight .vg{color:#f2777a}.highlight .vi{color:#f2777a}.highlight .vm{color:#f2777a}.highlight .il{color:#f99157}.font-logo{font-family:"Zain","Work Sans",sans-serif}.hover\:bg-accent-600:hover {
+}.highlight .hll{background-color:#515151}.highlight{background:#2d2d2d;color:#f2f0ec}.highlight .c{color:#a3cacd}.highlight .err{color:#f2777a}.highlight .k{color:#c9c}.highlight .l{color:#f99157}.highlight .n{color:#f2f0ec}.highlight .o{color:#6cc}.highlight .p{color:#f2f0ec}.highlight .ch{color:#a3cacd}.highlight .cm{color:#a3cacd}.highlight .cp{color:#a3cacd}.highlight .cpf{color:#a3cacd}.highlight .c1{color:#a3cacd}.highlight .cs{color:#a3cacd}.highlight .gd{color:#f2777a}.highlight .ge{font-style:italic}.highlight .gh{color:#f2f0ec;font-weight:bold}.highlight .gi{color:#9c9}.highlight .gp{color:#a3cacd;font-weight:bold}.highlight .gs{font-weight:bold}.highlight .gu{color:#6cc;font-weight:bold}.highlight .kc{color:#c9c}.highlight .kd{color:#c9c}.highlight .kn{color:#6cc}.highlight .kp{color:#c9c}.highlight .kr{color:#c9c}.highlight .kt{color:#fc6}.highlight .ld{color:#9c9}.highlight .m{color:#f99157}.highlight .s{color:#9c9}.highlight .na{color:#69c}.highlight .nb{color:#f2f0ec}.highlight .nc{color:#fc6}.highlight .no{color:#f2777a}.highlight .nd{color:#6cc}.highlight .ni{color:#f2f0ec}.highlight .ne{color:#f2777a}.highlight .nf{color:#69c}.highlight .nl{color:#f2f0ec}.highlight .nn{color:#fc6}.highlight .nx{color:#69c}.highlight .py{color:#f2f0ec}.highlight .nt{color:#6cc}.highlight .nv{color:#f2777a}.highlight .ow{color:#6cc}.highlight .w{color:#f2f0ec}.highlight .mb{color:#f99157}.highlight .mf{color:#f99157}.highlight .mh{color:#f99157}.highlight .mi{color:#f99157}.highlight .mo{color:#f99157}.highlight .sa{color:#9c9}.highlight .sb{color:#9c9}.highlight .sc{color:#f2f0ec}.highlight .dl{color:#9c9}.highlight .sd{color:#a3cacd}.highlight .s2{color:#9c9}.highlight .se{color:#f99157}.highlight .sh{color:#9c9}.highlight .si{color:#f99157}.highlight .sx{color:#9c9}.highlight .sr{color:#9c9}.highlight .s1{color:#9c9}.highlight .ss{color:#9c9}.highlight .bp{color:#f2f0ec}.highlight .fm{color:#69c}.highlight .vc{color:#f2777a}.highlight .vg{color:#f2777a}.highlight .vi{color:#f2777a}.highlight .vm{color:#f2777a}.highlight .il{color:#f99157}.font-logo{font-family:"Zain","Work Sans",sans-serif}page-background{background-image:radial-gradient(circle at 8% 60%,rgba(165,180,252,0.07) 0%,rgba(165,180,252,0.07) 15%,transparent 15%,transparent 100%),radial-gradient(circle at 20% 53%,rgba(146,241,254,0.1) 0%,rgba(146,241,254,0.14) 10%,transparent 10%,transparent 100%),radial-gradient(circle at 81% 56%,rgba(196,181,253,0.09) 0%,rgba(196,181,253,0.12) 12%,transparent 12%,transparent 100%),radial-gradient(circle at 15% 38%,rgba(196,181,253,0.07) 0%,rgba(196,181,253,0.1) 11%,transparent 11%,transparent 100%),radial-gradient(circle at 90% 40%,rgba(170,214,255,0.14) 0%,rgba(170,214,255,0.14) 8%,transparent 8%,transparent 100%),radial-gradient(circle at 95% 62%,rgba(248,113,113,0.07) 0%,rgba(248,113,113,0.1) 8%,transparent 6%,transparent 100%),linear-gradient(90deg,#fff,#fff)}.hover\:bg-accent-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(181 117 58 / var(--tw-bg-opacity));
 }.hover\:bg-gray-500:hover {
