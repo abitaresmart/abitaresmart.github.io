@@ -1,8 +1,6 @@
 title: AbitareSmart
 description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Ogni casa può diventare smart: noi ti aiutiamo a farlo con semplicità, sicurezza e attenzione ai tuoi bisogni reali.
 baseurl: "/"
 url: https://abitaresmart.github.io # change this URL, this is needed for generating right sitemap
 

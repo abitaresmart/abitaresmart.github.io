@@ -13,7 +13,7 @@ module.exports = {
         danger: colors.red,
       },
       fontFamily: {
-        sans: ['Zain', 'Inter var', ...defaultTheme.fontFamily.sans]
+        sans: ['Work Sans', 'Inter var', ...defaultTheme.fontFamily.sans]
       }
     }
   },
