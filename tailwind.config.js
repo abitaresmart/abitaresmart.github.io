@@ -31,11 +31,9 @@ module.exports = {
         900: '#593A1D',	
         950: '#3B2613',
       },
-      'whitet': "#FAFAFA",
-      'blackt': "#2E2E2E",
       transparent: 'transparent',
-      white: colors.red,
-      black: colors.red
+      white: "#FAFAFA",
+      black: "#2E2E2E"
     },
     extend: {
       colors: {
