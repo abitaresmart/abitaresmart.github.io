@@ -30,7 +30,9 @@ module.exports = {
         800: '#784E27',
         900: '#593A1D',	
         950: '#3B2613',
-      }
+      },
+      'whitet': "#FAFAFA",
+      'blackt': "#2E2E2E"
     },
     extend: {
       colors: {
