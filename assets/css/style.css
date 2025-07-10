@@ -83,6 +83,7 @@
     --clr-main: #126981;
     --clr-secondary: #6FAEC6;
     --clr-accent: #FFA552;
+    --clr-accent-dark: #c27125;
     --clr-white: #FAFAFA;
     --clr-black: #2E2E2E;
 }
@@ -103,6 +104,9 @@
 .accent-bg {
     background: var(--clr-accent);
 }
+.accent-bg-dark {
+    background: var(--clr-accent-dark);
+}
 
 .white-bg {
     background: var(--clr-white);
@@ -122,6 +126,10 @@
 
 .accent-fg {
     color: var(--clr-accent);
+}
+
+.accent-fg-dark {
+    color: var(--clr-accent-dark);
 }
 
 .white-fg {
