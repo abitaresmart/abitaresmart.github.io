@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       colors: {
         gray: colors.slate,
-        primary: colors.rose,
+        primary: '#FFA552',
         secondary: colors.indigo,
         tertiary: colors.slate,
         danger: colors.red,
