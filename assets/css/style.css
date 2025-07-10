@@ -89,6 +89,7 @@
 
 .font-logo {
     font-family: "Zain", "Work Sans", sans-serif;
+    font-size: 150%;
 }
 
 .main-bg {
@@ -109,4 +110,24 @@
 
 .black-bg {
     background: var(--clr-black);
+}
+
+.main-fg {
+    color: var(--clr-main);
+}
+
+.secondary-fg {
+    color: var(--clr-secondary);
+}
+
+.accent-fg {
+    color: var(--clr-accent);
+}
+
+.white-fg {
+    color: var(--clr-white);
+}
+
+.black-fg {
+    color: var(--clr-black);
 }
