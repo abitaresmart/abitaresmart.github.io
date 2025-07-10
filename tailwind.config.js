@@ -11,7 +11,7 @@ module.exports = {
         secondary: colors.indigo,
         tertiary: colors.slate,
         danger: colors.red,
-        accent: {
+        'accent': {
             '50': '#fff8ed',
             '100': '#ffeed4',
             '200': '#ffdaa8',
