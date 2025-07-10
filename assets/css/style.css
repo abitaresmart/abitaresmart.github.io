@@ -1119,12 +1119,12 @@ video {
   background-color: rgb(225 29 72 / var(--tw-bg-opacity));
 }.bg-transparent {
   background-color: transparent;
+}.bg-main-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(8 49 61 / var(--tw-bg-opacity));
 }.bg-main-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(6 37 45 / var(--tw-bg-opacity));
-}.bg-gray-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }.bg-opacity-75 {
   --tw-bg-opacity: 0.75;
 }.bg-gradient-to-tr {
