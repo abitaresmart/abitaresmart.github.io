@@ -32,7 +32,10 @@ module.exports = {
         950: '#3B2613',
       },
       'whitet': "#FAFAFA",
-      'blackt': "#2E2E2E"
+      'blackt': "#2E2E2E",
+      transparent: 'transparent',
+      white: colors.red,
+      black: colors.red
     },
     extend: {
       colors: {
