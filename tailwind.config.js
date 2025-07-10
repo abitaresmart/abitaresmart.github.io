@@ -38,7 +38,20 @@ module.exports = {
           800: '#784E27',
           900: '#593A1D',	
           950: '#3B2613',
-        }
+        },
+        'sub': {
+          50: '#F8FBFC',	
+          100: '#D4E7EE',
+          200: '#B0D2E0',
+          300: '#8CBED1',
+          400: '#6FAEC6',
+          500: '#5C90A4',
+          600: '#4F7C8D',
+          700: '#416775',
+          800: '#34525D',
+          900: '#273D45',
+          950: '#1A282E',
+        },
       },
       fontFamily: {
         sans: ['Work Sans', 'Inter var', ...defaultTheme.fontFamily.sans]
