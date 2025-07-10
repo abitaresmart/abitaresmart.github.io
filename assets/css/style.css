@@ -94,3 +94,19 @@
 .main-bg {
     background: var(--clr-main);
 }
+
+.secondary-bg {
+    background: var(--clr-secondary);
+}
+
+.accent-bg {
+    background: var(--clr-accent);
+}
+
+.white-bg {
+    background: var(--clr-white);
+}
+
+.black-bg {
+    background: var(--clr-black);
+}

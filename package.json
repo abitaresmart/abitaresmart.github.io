@@ -1,8 +1,8 @@
 {
-  "name": "cookie",
+  "name": "AbitareSmart",
   "version": "1.0.0",
-  "description": "Landing website with blog using Jekyll and TailwindCSS",
-  "homepage": "https://cookie-demo.netlify.app",
+  "description": "AbitareSmart",
+  "homepage": "",
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.3.0",
     "@tailwindcss/forms": "^0.4.0",
@@ -13,7 +13,7 @@
     "tailwindcss": "^3.0.15",
     "postcss-cli": "10.0.0"
   },
-  "author": "Abhinav Saxena",
+  "author": "AbitareSmart",
   "license": "MIT",
   "dependencies": {}
 }
