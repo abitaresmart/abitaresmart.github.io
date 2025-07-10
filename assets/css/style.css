@@ -1365,16 +1365,10 @@ video {
 }.active\:bg-white:active {
   --tw-bg-opacity: 1;
   background-color: rgb(250 250 250 / var(--tw-bg-opacity));
-}@media (min-width: 640px) {.sm\:ml-auto {
-    margin-left: auto;
-  }.sm\:mt-0 {
-    margin-top: 0px;
-  }.sm\:max-w-xl {
+}@media (min-width: 640px) {.sm\:max-w-xl {
     max-width: 36rem;
   }.sm\:flex-row {
     flex-direction: row;
-  }.sm\:justify-start {
-    justify-content: flex-start;
   }.sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
