@@ -87,6 +87,10 @@
     --clr-black: #2E2E2E;
 }
 
+.font-logo {
+    font-family: "Zain", "Work Sans", sans-serif;
+}
+
 .main-bg {
     background: var(--clr-main);
 }
