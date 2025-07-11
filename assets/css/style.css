@@ -1204,12 +1204,12 @@ video {
 }.text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }.text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }.text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
