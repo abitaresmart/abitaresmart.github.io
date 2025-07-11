@@ -1353,6 +1353,8 @@ video {
 }.hover\:bg-primary-50:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 241 242 / var(--tw-bg-opacity));
+}.hover\:fill-current:hover {
+  fill: currentColor;
 }.hover\:text-accent-400:hover {
   --tw-text-opacity: 1;
   color: rgb(255 165 82 / var(--tw-text-opacity));
