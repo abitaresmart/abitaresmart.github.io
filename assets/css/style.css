@@ -1057,9 +1057,6 @@ video {
   border-radius: 0.25rem;
 }.rounded-full {
   border-radius: 9999px;
-}.rounded-t-2xl {
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
 }.rounded-bl {
   border-bottom-left-radius: 0.25rem;
 }.border-2 {
