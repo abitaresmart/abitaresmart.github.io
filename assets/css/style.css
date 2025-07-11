@@ -1359,9 +1359,9 @@ video {
 }.hover\:text-accent-400:hover {
   --tw-text-opacity: 1;
   color: rgb(255 165 82 / var(--tw-text-opacity));
-}.hover\:text-red-300:hover {
+}.hover\:text-\[\#E1306C\]:hover {
   --tw-text-opacity: 1;
-  color: rgb(252 165 165 / var(--tw-text-opacity));
+  color: rgb(225 48 108 / var(--tw-text-opacity));
 }.hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(250 250 250 / var(--tw-text-opacity));
